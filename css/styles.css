@@ -1,0 +1,30 @@
+body{
+  background-color: lightgrey;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#title{
+  text-align: center;
+}
+
+#profil_pic{
+  border: 1px solid grey;
+  border-radius: 1.5em;
+  height: 250px;
+  float: right;
+  margin-right: 15px;
+}
+
+#cursus{
+  float: right;
+}
+
+
+#langues{
+  float: left;
+  padding-right: 10em;
+}
+
+#interest li{
+  margin-right: 15em;
+}

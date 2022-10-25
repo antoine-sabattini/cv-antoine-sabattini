@@ -1,6 +1,12 @@
 body{
-  background-color: lightgrey;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace !important;
+  background-color: lightgrey !important;
+  /*background-image: url('img/papier-kraft.jpg') !important;*/
+  padding-left: 2em;
+}
+
+li{
+  list-style-type:square;
 }
 
 #title{
@@ -10,21 +16,63 @@ body{
 #profil_pic{
   border: 1px solid grey;
   border-radius: 1.5em;
-  height: 250px;
+  height: 220px;
   float: right;
   margin-right: 15px;
+}
+
+.contact{
+
+  font-size: 90% !important;
+  margin-bottom: 1em;
 }
 
 #cursus{
   float: right;
 }
 
-
 #langues{
   float: left;
-  padding-right: 10em;
+  padding-right: 14em;
 }
 
-#interest li{
-  margin-right: 15em;
+.link_icon{
+  width: 2%;
+  height: 2%;
+}
+
+#tabletitle{
+  float: right;
+}
+
+#mylinks{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1,5em;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 2em;
+}
+
+td{
+  padding-right: 1em;
+  padding-left: 1em;
+
+}
+
+td a{
+  text-decoration: none;
+  color: black;
+}
+
+svg{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
